@@ -11,7 +11,7 @@ public class NextScenes : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Oyuncu engelle çarptığında sahneyi yeniden başlat
-            SceneManager.LoadScene("Finish");
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
